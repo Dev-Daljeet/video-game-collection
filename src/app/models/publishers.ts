@@ -1,0 +1,4 @@
+interface Publishers {
+    name: string;
+  }
+  
