@@ -1,3 +1,0 @@
-interface Screenshots {
-    image: string;
-  }
