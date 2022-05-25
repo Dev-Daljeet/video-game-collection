@@ -1,27 +1,37 @@
-# VideoGameCollection
+# Video Game Collection
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.6.
+This application allows the user to search 500k+ video games, read stats (platforms, summary, gameplay screenshots, trailers and more) and sort the list/result with various options (rating, release date and more)
 
-## Development server
+## A sample screenshot/gif of Project
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+![Project demo gif](https://github.com/Dev-Daljeet/Screenshots/blob/master/VideoGameCollection/video-game-collection-demo.gif?raw=true)
 
-## Code scaffolding
+## Installation and Setup Instructions 
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+**Note: You will need [npm](https://nodejs.org/en/) and [Angular CLI](https://angular.io/cli) installed globally on your machine.**
 
-## Build
+Firstly, clone down this repository.  
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+```shell
+git clone https://github.com/Dev-Daljeet/video-game-collection.git
 
-## Running unit tests
+cd video-game-collection
+```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+### Installation:
 
-## Running end-to-end tests
+`npm install`   
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+### To start a server:
 
-## Further help
+`ng serve` or  `npm start` 
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+### To visit the app:
+
+Open `http://localhost:4200/` to view it in the browser  
+
+# License
+MIT License
+Copyright (c) 2022 Daljeet Singh
+
+Refer to **LICENSE** file for full information.
