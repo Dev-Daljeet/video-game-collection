@@ -2,6 +2,8 @@
 
 This application allows the user to search 500k+ video games, read stats (platforms, summary, gameplay screenshots, trailers and more) and sort the list/result with various options (rating, release date and more)
 
+**Technologies**: HTML5, SCSS, TypeScript, Angular, Angular Material, RAWG API
+
 ## A sample screenshot/gif of Project
 
 ![Project demo gif](https://github.com/Dev-Daljeet/Screenshots/blob/master/VideoGameCollection/video-game-collection-demo.gif?raw=true)
@@ -17,6 +19,10 @@ git clone https://github.com/Dev-Daljeet/video-game-collection.git
 
 cd video-game-collection
 ```
+
+### Add your own API key from RAWG:
+
+You need to use your own [RAWG API Key](https://rawg.io/apidocs) for 'key' name/field in src\app\interceptors\http-headers.interceptor.ts file
 
 ### Installation:
 
